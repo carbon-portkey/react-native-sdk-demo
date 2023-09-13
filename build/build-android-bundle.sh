@@ -1,0 +1,2 @@
+# build index.android.bundle
+react-native bundle --platform android --entry-file js/components/index.tsx --bundle-output android/react-native-sdk-demo/rn-sdk/src/assets/index.android.bundle --dev false
