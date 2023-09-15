@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "RCTBridge+ARNSDK.h"
 #import "ARNSDKRootView.h"
 
 FOUNDATION_EXPORT double AelfPortkeyVersionNumber;

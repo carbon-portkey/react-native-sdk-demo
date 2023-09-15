@@ -11,6 +11,8 @@
 
 @interface APKViewController ()
 
+@property (nonatomic, strong) ARNSDKRootView *rnRootView;
+
 @end
 
 @implementation APKViewController
@@ -18,7 +20,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [ARNSDKRootView testMethod];
+    
+    CGSize size = UIScreen.mainScreen.bounds.size;
+    self.rnRootView = [[ARNSDKRootView alloc] initWithFrame:CGRectMake(0, 0, size.width, size.height)];
+    [self.view addSubview:self.rnRootView];
 }
 
 - (void)didReceiveMemoryWarning
