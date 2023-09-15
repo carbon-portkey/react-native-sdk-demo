@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "ARNSDKRootView.h"
 
 FOUNDATION_EXPORT double AelfPortkeyVersionNumber;
 FOUNDATION_EXPORT const unsigned char AelfPortkeyVersionString[];
