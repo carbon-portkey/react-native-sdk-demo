@@ -9,7 +9,8 @@
     "@react-native-community/cli-platform-android": "^11.3.8",
     "@react-native/metro-config": "^0.72.11",
     "react": "^18.2.0",
-    "react-native": "^0.72.4"
+    "react-native": "^0.72.4",
+    "react-native-gradle-plugin": "^0.71.19"
   },
   "scripts": {
     "start": "yarn react-native start"
