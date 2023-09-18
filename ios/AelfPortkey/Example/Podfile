@@ -13,8 +13,7 @@ require_relative "#{$node_modules}/@react-native-community/cli-platform-ios/nati
 
 target 'AelfPortkey_Example' do
   
-# use_react_native!(path: $react_native_path, hermes_enabled: false, fabric_enabled: true)
- use_react_native!(path: $react_native_path, hermes_enabled: false)
+  use_react_native!(path: $react_native_path, hermes_enabled: false)
 #  use_react_native!(
 #     :path => $react_native_path],
 #     # to enable hermes on iOS, change `false` to `true` and then install pods

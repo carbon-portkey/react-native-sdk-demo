@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'AelfPortkey/Classes/**/*'
   
   s.resource_bundles = {
-    'JSBundle' => ['AelfPortkey/Assets/*.bundle']`
+    'JSBundle' => ['AelfPortkey/Assets/*.bundle']
   }
 
   s.public_header_files = 'Pod/Classes/**/*.h'
